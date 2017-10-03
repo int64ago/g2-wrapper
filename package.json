@@ -1,0 +1,39 @@
+{
+  "name": "g2-wrapper",
+  "version": "1.0.0",
+  "description": "A higher G2 wrapper for React",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/int64ago/g2-wrapper.git"
+  },
+  "keywords": [
+    "g2",
+    "g2-react"
+  ],
+  "author": "Cody Chan <int64ago@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/int64ago/g2-wrapper/issues"
+  },
+  "homepage": "https://github.com/int64ago/g2-wrapper#readme",
+  "peerDependencies": {
+    "g2": ">=1.2.6 <3.0.0"
+  },
+  "dependencies": {
+    "g2": "^2.3.12",
+    "g2-react": "^1.3.1",
+    "react": "^15.6.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "webpack": "^3.6.0"
+  }
+}
