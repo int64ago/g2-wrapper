@@ -8,7 +8,7 @@
 [download-image]: https://img.shields.io/npm/dm/g2-wrapper.svg?style=flat-square
 [download-url]: https://npmjs.org/package/g2-wrapper
 
-A higher G2 wrapper for React.
+A higher [G2](https://antv.alipay.com/g2/doc/index.html) wrapper for React.
 
 ## Usage
 
