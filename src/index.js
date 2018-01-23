@@ -14,7 +14,7 @@ export default class Wrapper extends Component {
   componentWillReceiveProps(nextProps) {
     if (nextProps.shape !== this.props.shape) {
       this.chart.clear();
-      this.props.cfgFun && this.props.cfgFun(chart);
+      this.props.cfgFun && this.props.cfgFun(this.chart);
       this.chart.render();
     }
   }
