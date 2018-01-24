@@ -1,6 +1,6 @@
 {
   "name": "g2-wrapper",
-  "version": "1.1.0",
+  "version": "1.1.2",
   "description": "A higher G2 wrapper for React",
   "main": "lib/index.js",
   "files": [
@@ -27,8 +27,15 @@
     "g2": ">=1.2.6 <3.0.0"
   },
   "dependencies": {
+    "babel-eslint": "^8.2.1",
+    "eslint": "^4.16.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.5.1",
     "g2": "^2.3.12",
     "g2-react": "^1.3.1",
+    "prop-types": "^15.6.0",
     "react": "^15.6.2"
   },
   "devDependencies": {
